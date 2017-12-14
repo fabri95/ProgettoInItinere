@@ -10,7 +10,7 @@ from AlberoBinario import NodoBinarioLazyDeletion
 
 
 
-class ARBLD:
+class ABRLD:
     """Un albero di ricerca binario (ARB) e' un albero binario, che per essere tale deve
        soddisfare tre prorpieta' fondamentali:
        1-ogni nodo v dell'albero contiene un elemento, che indicheremo con info[1]
@@ -109,9 +109,9 @@ class ARBLD:
 
 
 if __name__=="__main__":
-    dizionario.ARBLD()
+    dizionario.ARBLD()                #chiamo la classe ABRLD
 
-    print ("Inserisci(4,12)")
+    print ("Inserisci(4,12)")         #Inizio una serie di inserimenti di nuove coppie
     dizionario.inserisci(4,12)
 
     print ("Inserisci(5,13)")
