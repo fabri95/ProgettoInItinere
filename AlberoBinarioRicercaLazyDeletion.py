@@ -49,7 +49,7 @@ class ABRLD:
 
         attuale=self.albero.radice
         while attuale!=None:                                                #Cerca nell'albero fino a quando la radice non e' vuota
-            chiaveCorrente=self.chiave(attuale)                             #memeorizza la chiave del nodo corrente
+            chiaveCorrente=self.chiave(attuale)                             #memorizza la chiave del nodo corrente
             if chiave==chiaveCorrente:                                      #la chiave che voglio cercare e' uguale a quella in scansione
                if attuale.status== True:
                    return attuale
